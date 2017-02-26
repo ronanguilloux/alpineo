@@ -2,8 +2,8 @@
 
 __This image is not intended to be run AS IS but is rather to be used for building akeneo pim docker images__
 
-It provides a pre-configured Apache (2.4) + mod_php (PHP 7.0) + MySQL web server, based on a single Debian 8 (Jessie) based container.
-Apache is configured to run with the `docker` user.
+It provides a pre-configured Apache (2.4) + mod_php (PHP 7.0) + MySQL web server, based on a single Alpine Edge based container.
+Apache is NOT configured to run with the `docker` user.
 The environment comes with some PHP 7.0 extensions: `acpu`, `mcrypt`, `intl`, `mysql`, `curl`, `gd`, `imagick`, `mongo` Mongo server non included.
 
 This image is not intended to be use directly as it stands: You'd rather extend it and create custom environments on top of it.
